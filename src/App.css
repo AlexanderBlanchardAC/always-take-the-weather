@@ -1,0 +1,384 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+
+body{
+  width: 100vw;
+  /* height: 100vh; */
+  /* overflow-y: hidden; */
+  font-family: "sono", sans-serif;
+  background-color:gainsboro
+}
+
+.forecastContainerMain {
+  border: 4px solid darkGray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: lightslategray;
+  border-radius: 20px;
+  width: 90%;
+  height: 30%;
+  padding: 0.25rem;
+  /* position: relative; */
+  margin-top: 0.5rem;
+}
+
+
+ 
+
+.summaryForecast{
+  border: 2px solid white;
+  border-radius: 20px;
+  width:150px;
+  text-align: center;
+  height: 94%;
+  background-color: lightslategray;
+  font-size: 14px;
+  color: white;
+  margin: 0.2rem;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mainCurrentWeather {
+  
+  width: 90%;
+  height: 45%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* position: relative; */
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.overviewContainerMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+  /* position: relative; */
+  border: 5px solid black;
+  width: 100vw;
+  height: fit-content;
+  overflow-y: scroll;
+}
+
+
+.search {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.4rem;
+  width: 80%;
+}
+
+#searchInput {
+  margin-right: 0.1rem;
+  width: 75%;
+  border: 4px solid darkgray;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: lightslategray;
+  color: gainsboro;
+}
+
+.searchForecast {
+  margin-left: 0.1rem;
+  border-radius: 10px;
+  border: 4px solid darkgray;
+  color: gainsboro;
+  background-color: lightslategray;
+  padding: 0.5rem;
+  width: 20%;
+ 
+
+  /* background-color: darkgray; */
+}
+
+.title {
+ margin-top: 20px;
+ margin-bottom: 0;
+ font-size: 20px;
+ font-weight: 600;
+}
+
+.currentTemp {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0.25rem;
+  font-weight: 700;
+ 
+}
+
+#weatherIcon {
+  font-size: 6.5rem;
+  margin: 0;
+  /* transform: translateY(calc(-130%)); */
+  /* position: absolute;
+  */
+}
+
+.location {
+  font-size:20px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  font-weight: 300;
+ 
+}
+
+.currentWeatherDesc {
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0.25rem;
+  
+}
+
+
+.searchToggleAdditionalInfo {
+  display: flex;
+  flex-direction: column;
+  height: 8%;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+
+
+.mainInfo {
+  border: 6px solid darkgray;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 10px;
+  width: 40%;
+  background-color: lightslategray;
+  color: gainsboro;
+  margin-right: 0.25rem;
+  margin-bottom: 0;
+  height: 90%;
+  /* position: relative; */
+  
+}
+
+@media  screen and (max-width: 769px){
+  .mainInfo{
+    justify-content: center;
+    font-size: 0.5rem;
+  }
+  .title {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+   }
+
+   .forecastContainerMain {
+    border: 4px solid darkGray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightslategray;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.25rem;
+    /* position: relative; */
+    margin-top: 0.5rem;
+  }
+ 
+
+  .mainCurrentWeather {
+   
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .additionalInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position: relative; */
+    width: 100%;
+    border: 6px solid darkgray;
+    border-radius: 20px;
+    height: fit-content;
+    /* align-self: flex-end; */
+    padding: 1rem;
+    /* margin-left: 0.25rem; */
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: lightslategray;
+    font-size: 15px;
+  }
+
+  .summaryForecast{
+    border: 2px solid white;
+    border-radius: 20px;
+    width:150px;
+    text-align: center;
+    height: 94%;
+    background-color: lightslategray;
+    font-size: 14px;
+    color: white;
+    margin: 0.2rem;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .additionalInfo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .overviewContainerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    justify-content: center;
+    position: relative;
+    border: 5px solid black;
+    width: 100vw;
+    height: fit-content;
+    overflow-y: scroll;
+  }
+  
+.moreTempInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sunriseSunset {
+  text-align: center;
+}
+
+
+
+
+
+.humidityIcon {
+  width: 1.5rem;
+  height: 2rem;
+ 
+}
+
+.windSock {
+  width: 1.5rem;
+  height: 2rem;
+}
+
+
+}
+
+
+
+.additionalInfo {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  width: 60%;
+  border: 6px solid darkgray;
+  border-radius: 20px;
+  height: 90%;
+  /* align-self: flex-end; */
+  /* padding: 1rem; */
+  padding: 10px;
+  margin-left: 0.25rem;
+  margin-bottom: 0;
+  color: lightslategray;
+  font-size: 15px;
+}
+
+
+.moreTempInfo {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.sunriseSunset {
+  text-align: center;
+}
+
+.additionalWeatherInfo {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+ 
+}
+
+.thermometerCold {
+  width:1.5rem;
+  height:2rem;
+}
+
+.thermometerHot {
+  width: 1.5rem;
+  height: 2rem;
+}
+
+.feelsLikeTemp {
+  width: 1.5rem;
+  height: 2rem;
+}
+
+.humidityIcon {
+  width: 1.5rem;
+  height: 2rem;
+}
+
+.windSock {
+  width: 1.5rem;
+  height: 2rem;
+}
+
+.sunriseIcon {
+  width: 1.5rem;
+  height: 2rem;
+}
+
+.sunsetIcon {
+  width: 1.5rem;
+  height: 2rem;
+}
+
+
+
+
+   
+
+
+
+
+
