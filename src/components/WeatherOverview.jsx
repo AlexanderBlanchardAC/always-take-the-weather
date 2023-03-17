@@ -8,8 +8,8 @@ import ToggleTemp from "./ToggleTemp";
 const WeatherOverview = () => {
 
     const [city, setCity] = useState("London")
-    const [input, setInput] = useState("")
-    const [noWeather, setNoWeather] = useState("")
+    
+   
     const [forecastData, setForecastData] = useState([])
     const [weatherData, setWeatherData] = useState({})
     const [degreeType, setDegreeType] = useState("celsius")

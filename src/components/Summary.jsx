@@ -3,7 +3,7 @@
 
 const Summary = ({forecastData, degreeType}) => {
 
-   const { temp, dt, desc, title, iconId } = forecastData;
+   const { temp, dt, desc, iconId } = forecastData;
    const icon = `owf owf-${iconId} owf-5zx`
 
    const celsius = Math.round(temp)
@@ -33,7 +33,7 @@ return(
         <p>{date}</p>
         <p>{degreeType === "celsius" ? `${celsius}${degCels}`  : `${fahrenheit}${degFah}`}</p>
         <i className={icon} style={{ fontsize: "7rem" }} />
-        <p>{title}: {toCaps(desc)}</p>
+        <p>{toCaps(desc)}</p>
             
        
        
