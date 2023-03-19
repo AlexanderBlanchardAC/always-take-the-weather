@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/always-take-the-weather/static/css/main.b4bfec4e.css",
+    "main.js": "/always-take-the-weather/static/js/main.a50524ea.js",
+    "static/js/787.b95ef932.chunk.js": "/always-take-the-weather/static/js/787.b95ef932.chunk.js",
+    "static/media/humidityIcon.png": "/always-take-the-weather/static/media/humidityIcon.5d520550550e0ca9caf1.png",
+    "static/media/thermometerHot.png": "/always-take-the-weather/static/media/thermometerHot.72196dfb9615f911e62d.png",
+    "index.html": "/always-take-the-weather/index.html",
+    "main.b4bfec4e.css.map": "/always-take-the-weather/static/css/main.b4bfec4e.css.map",
+    "main.a50524ea.js.map": "/always-take-the-weather/static/js/main.a50524ea.js.map",
+    "787.b95ef932.chunk.js.map": "/always-take-the-weather/static/js/787.b95ef932.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4bfec4e.css",
+    "static/js/main.a50524ea.js"
+  ]
+}
